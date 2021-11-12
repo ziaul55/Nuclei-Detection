@@ -1,6 +1,6 @@
 # Nuclei-Detection
 
-Step 1: Read the Image and convert it into double precision.
+## Step 1: Read the Image and convert it into double precision.
 Step 2: The MATLAB function adapthisteq is used to enhance the contrast between nuclei and background. (To make nuclei more darker and background brighter)
 Step 3: Plot the contrast enhanced image.
 Step 4: The MATLAB function graythresh is used to find the global threshold of the image. That will eliminate most of the background. This function is working based on Otsu’s thresholding algorithm. And then binaries the image with the MATLAB function imbinarize using the threshold value.
