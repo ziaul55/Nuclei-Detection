@@ -1,6 +1,6 @@
 # Nuclei-Detection
 
-## Step 1: 
+### Step 1: 
 Read the Image and convert it into double precision.
 ## Step 2: 
 The MATLAB function adapthisteq is used to enhance the contrast between nuclei and background. (To make nuclei more darker and background brighter)
